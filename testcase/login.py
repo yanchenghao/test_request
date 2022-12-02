@@ -21,7 +21,8 @@ name=os.path.split(__file__)[-1].split(".")[0]
 log_path=name+log_exsion
 with open(dir+"/logs/" + log_path,"w") as f:
     f.write(" ")
-logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
+logger1= log_config.Logger(dir+"/logs/" + "app.log", "test", log_level)
+# logger1= log_config.Logger(dir+"/logs/" +log_path, "test", log_level)
 # logger=logging.getLogger("test")#zidaiderizhixitong
 # handle=logging.FileHandler(dir+"/logs/" + log_path,encoding='utf-8')
 # logger.addHandler(handle)
