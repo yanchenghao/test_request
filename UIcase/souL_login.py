@@ -47,7 +47,7 @@ def login(driver,phone,password):
   except:
     print(traceback.format_exc())
   finally:
-    time.sleep(2)
+    time.sleep(8)
 def login_Multiple(driver,phoneStart,phoneEnd,password):
   for i in range(phoneStart,phoneEnd):
     # server = 'http://0.0.0.0:4723/wd/hub'
@@ -65,6 +65,7 @@ def login_Multiple(driver,phoneStart,phoneEnd,password):
     driver.quit()
 driverConfig=UIapi_config.driver(webdriver)
 driver=driverConfig.get_driver()
-login(driver, 3000007, "Best1234")
+# login(driver, 3000007, "Best1234")
+login_Multiple(driver,80000001,80000020,"Best1234")
 driver.quit()
 
