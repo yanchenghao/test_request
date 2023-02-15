@@ -32,10 +32,9 @@ class redis_conn():
             return value
 
 if __name__ =="__main__":
-    # host = '172.31.32.245'
     # port = 6379
     # name = 'tribe:hot:ids:20201209102029TRB100001640:en'
-    host = '172.31.32.10'
+
     port = 6379
     name = 'user:cache:user:info:1582211115409043457'
     redis.ConnectionPool(host=host, port=port, decode_responses=True)
