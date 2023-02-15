@@ -34,7 +34,6 @@ class redis_conn():
 if __name__ =="__main__":
     # port = 6379
     # name = 'tribe:hot:ids:20201209102029TRB100001640:en'
-
     port = 6379
     name = 'user:cache:user:info:1582211115409043457'
     redis.ConnectionPool(host=host, port=port, decode_responses=True)
