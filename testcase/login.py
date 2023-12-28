@@ -27,10 +27,9 @@ logger1= log_config.Logger(dir+"/logs/" + "app.log", "test", log_level)
 # handle=logging.FileHandler(dir+"/logs/" + log_path,encoding='utf-8')
 # logger.addHandler(handle)
 path="/api/user/snackUser/login"
-
 url1=protocol+host+path
-header=yaml_conf.yaml_load("/Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/test_request/data/header.yaml")
-list=yaml_conf.get_yaml_data("/Users/yanchenghao/PycharmProjects/PycharmProjects/pythonProject/test_request/data/login.yaml")
+header=yaml_conf.yaml_load("./data/header.yaml")
+list=yaml_conf.get_yaml_data("./data/login.yaml")
 # data=yaml_conf.yaml_load("./data/login.yaml")
 # print("11111111")
 # print(data)
