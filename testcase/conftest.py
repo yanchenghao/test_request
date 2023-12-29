@@ -22,7 +22,6 @@ dir=os.path.dirname(os.path.dirname(__file__))
 # #     f.write(" ")
 # logger1= log_config.Logger(dir+"/logs/" + log_path, "test", log_level)
 header = yaml_conf.yaml_load(dir+"/data/header.yaml")
-print("11111111")
 #设置前置全局配置
 @pytest.fixture(scope="function")
 def login():
