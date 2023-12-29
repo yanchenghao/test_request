@@ -39,6 +39,7 @@ list=yaml_conf.get_yaml_data("./data/login.yaml")
 # print(list)
 # params=data["pam"]
 # print(params)
+
 @allure.feature("登录模块")
 @allure.description("测试登录功能，两个正例测试")
 @allure.severity(allure.severity_level.CRITICAL)
