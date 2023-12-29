@@ -1,4 +1,4 @@
-2023-12-28 19:28:18 INFO 当前url:https://molelive.com/api/user/snackUser/login
-2023-12-28 19:28:18 INFO 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
-2023-12-28 19:28:18 INFO 当前url:https://molelive.com/api/user/snackUser/login
-2023-12-28 19:28:18 INFO 当前的测试参数{'countryPhoneCode': '2', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555556'}
+2023-12-29 11:10:53 INFO 当前url:https://molelive.com/api/user/snackUser/login
+2023-12-29 11:10:53 INFO 当前的测试参数{'countryPhoneCode': '1', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555555'}
+2023-12-29 11:10:54 INFO 当前url:https://molelive.com/api/user/snackUser/login
+2023-12-29 11:10:54 INFO 当前的测试参数{'countryPhoneCode': '2', 'password': '6d9597d054fab29693d255612e67bd6c', 'phone': '2565555556'}
